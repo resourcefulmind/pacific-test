@@ -57,7 +57,7 @@ Theme Version:	9.2.0
 
 			// Ajax
 			$.ajax({
-				url: 'ajax/demo-construction-2-ajax-projects-load-more-' + (parseInt(self.currentPage)+1) + '.html',
+				url: 'ajax/2-ajax-projects-load-more-' + (parseInt(self.currentPage)+1) + '.html',
 				complete: function(data) {
 
 					var $items = $(data.responseText);

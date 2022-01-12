@@ -128,20 +128,22 @@
                       <nav class="collapse px-3-5">
                         <ul class="nav nav-pills" id="mainNav">
                           <li>
-                            <a class="nav-link" href="index.html"> Home </a>
+                            <a class="nav-link" href="index.html">
+                              Home
+                            </a>
                           </li>
                           <li>
                             <a
                               class="nav-link"
-                              href="demo-construction-company.html"
+                              href="company.html"
                             >
                               Company
                             </a>
                           </li>
                           <li class="dropdown">
                             <a
-                              class="nav-link dropdown-toggle active"
-                              href="demo-construction-services.html"
+                              class="nav-link dropdown-toggle"
+                              href="services.html"
                             >
                               Services
                             </a>
@@ -149,28 +151,28 @@
                               <li>
                                 <a
                                   class="dropdown-item"
-                                  href="demo-construction-services-detail.html"
+                                  href="services-detail.html"
                                   >Business Divisions</a
                                 >
                               </li>
                               <li>
                                 <a
                                   class="dropdown-item"
-                                  href="demo-construction-services-detail.html"
+                                  href="services-detail.html"
                                   >Oil</a
                                 >
                               </li>
                               <li>
                                 <a
                                   class="dropdown-item"
-                                  href="demo-construction-services-detail.html"
+                                  href="services-detail.html"
                                   >Natural Gas</a
                                 >
                               </li>
                               <li>
                                 <a
                                   class="dropdown-item"
-                                  href="demo-construction-services-detail.html"
+                                  href="services-detail.html"
                                   >Energy Technologies</a
                                 >
                               </li>
@@ -178,8 +180,8 @@
                           </li>
                           <li>
                             <a
-                              class="nav-link"
-                              href="demo-construction-projects.html"
+                              class="nav-link active"
+                              href="projects.html"
                             >
                               Projects
                             </a>
@@ -187,7 +189,7 @@
                           <li>
                             <a
                               class="nav-link"
-                              href="demo-construction-blog.html"
+                              href="blog.html"
                             >
                               Blog
                             </a>
@@ -195,7 +197,7 @@
                           <li>
                             <a
                               class="nav-link"
-                              href="demo-construction-contact.html"
+                              href="contact.html"
                             >
                               Contact
                             </a>
@@ -344,7 +346,7 @@
                   data-appear-animation-delay="200"
                 >
                   <li><a href="index.html">Home</a></li>
-                  <li class="active">Services</li>
+                  <li class="active">Projects</li>
                 </ul>
                 <h1
                   class="
@@ -370,7 +372,7 @@
                     "
                     data-appear-animation="fadeInLeftShorterPlus"
                     data-appear-animation-delay="800"
-                    >Services</span
+                    >Projects</span
                   >
                   <span
                     class="
@@ -400,589 +402,453 @@
           </div>
         </section>
 
-        <div class="container custom-margin-1">
-          <div class="row gy-5 gy-lg-0 pt-3 pt-lg-0 mt-5 mt-lg-0">
-            <div
-              class="col-lg-8 order-lg-2 mt-0 appear-animation"
-              data-appear-animation="fadeInUpShorterPlus"
-              data-appear-animation-delay="1200"
-            >
-              <div class="row gy-5">
-                <div
-                  class="col-12 appear-animation"
-                  data-appear-animation="fadeInUpShorterPlus"
-                  data-appear-animation-delay="1400"
-                >
-                  <div
+        <div class="container pb-5 pb-sm-0 my-5">
+          <div class="row">
+            <div class="col">
+              <ul
+                class="
+                  nav nav-pills
+                  sort-source sort-source-style-3
+                  justify-content-center justify-content-md-start
+                  text-3-5
+                  pb-2
+                  mb-4
+                  appear-animation
+                "
+                data-appear-animation="fadeInUpShorterPlus"
+                data-appear-animation-delay="1000"
+                data-sort-id="portfolio"
+                data-option-key="filter"
+                data-plugin-options="{'layoutMode': 'masonry', 'filter': '*'}"
+              >
+                <li class="nav-item active" data-option-value="*">
+                  <a
                     class="
-                      d-flex
-                      flex-column flex-sm-row
-                      align-items-center align-items-sm-start
+                      nav-link
+                      font-weight-semibold
+                      text-color-dark text-color-hover-primary
+                      px-0
+                      active
                     "
+                    href="#"
+                    >Show All</a
                   >
-                    <img
-                      class="flex-0-0-auto"
-                      width="85"
-                      height="85"
-                      src="img/demos/construction/icons/businessdivision.svg"
-                      alt=""
-                      data-icon
-                      data-plugin-options="{'animated': true, 'delay': 1700, 'accY': 400, 'strokeBased': true, 'extraClass': 'svg-stroke-color-dark px-0 px-sm-5 pb-4 pb-sm-0 pt-3'}"
-                    />
-                    <div class="text-center text-sm-start">
-                      <h3
+                </li>
+                <li class="nav-item ms-4" data-option-value=".pre-construction">
+                  <a
+                    class="
+                      nav-link
+                      font-weight-semibold
+                      text-color-dark text-color-hover-primary
+                      px-0
+                    "
+                    href="#"
+                    >Business Divisions</a
+                  >
+                </li>
+                <li
+                  class="nav-item ms-4"
+                  data-option-value=".general-construction"
+                >
+                  <a
+                    class="
+                      nav-link
+                      font-weight-semibold
+                      text-color-dark text-color-hover-primary
+                      px-0
+                    "
+                    href="#"
+                    >Oil</a
+                  >
+                </li>
+                <li class="nav-item ms-4" data-option-value=".plumbling">
+                  <a
+                    class="
+                      nav-link
+                      font-weight-semibold
+                      text-color-dark text-color-hover-primary
+                      px-0
+                    "
+                    href="#"
+                    >Natural Gas</a
+                  >
+                </li>
+                <li class="nav-item ms-4" data-option-value=".painting">
+                  <a
+                    class="
+                      nav-link
+                      font-weight-semibold
+                      text-color-dark text-color-hover-primary
+                      px-0
+                    "
+                    href="#"
+                    >Energy Technologies</a
+                  >
+                </li>
+              </ul>
+              <div
+                class="sort-destination-loader sort-destination-loader-showing"
+                data-remove-min-height
+                style="min-height: 792px"
+              >
+                <div
+                  class="row sort-destination g-4 px-0"
+                  data-sort-id="portfolio"
+                >
+                  <div class="col-sm-6 col-md-4 isotope-item pre-construction">
+                    <div
+                      class="portfolio-item appear-animation"
+                      data-appear-animation="fadeInUpShorterPlus"
+                      data-appear-animation-delay="1200"
+                    >
+                      <div
                         class="
-                          text-color-dark
-                          font-weight-bold
-                          text-transform-none text-5-5
+                          thumb-info
+                          thumb-info-no-borders
+                          thumb-info-no-borders-rounded
+                          thumb-info-centered-icons
                           mb-3-5
                         "
                       >
-                        Business Divisions
-                      </h3>
-                      <p class="font-weight-light text-3-5 mb-4-5">
-                        An industry leader in almost every aspect of the energy
-                        and chemical manufacturing businesses, we operate
-                        facilities or market products in most of the world’s
-                        countries, explore for oil and natural gas on six
-                        continents, and research and develop next-generation
-                        technologies to help meet the dual challenge of fueling
-                        global economies while addressing the risks of climate
-                        change.
-                      </p>
-                      <a
-                        href="demo-construction-services-detail.html"
+                        <div class="thumb-info-wrapper">
+                          <img
+                            src="img/demos/construction/generic/fadhili22pro.png"
+                            class="img-fluid"
+                            alt=" project"
+                          />
+                          <div class="thumb-info-action">
+                            <a href="projects-detail.html">
+                              <divFadhili
+                                class="
+                                  thumb-info-action-icon
+                                  thumb-info-action-icon-light
+                                "
+                              >
+                                <i class="fas fa-plus text-dark"></i>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <span
                         class="
-                          custom-view-more
-                          d-inline-flex
+                          d-block
+                          text-color-grey
+                          positive-ls-3
                           font-weight-medium
-                          text-color-primary text-decoration-none
+                          text-2
                         "
+                        >FADHILI</span
                       >
-                        View More
-                        <img
-                          width="27"
-                          height="27"
-                          src="img/demos/construction/icons/arrow-right.svg"
-                          alt=""
-                          data-icon
-                          data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary ms-2'}"
-                        />
-                      </a>
+                      <h2 class="font-weight-bold text-5-5 line-height-3">
+                        <a
+                          href="projects-detail.html"
+                          class="
+                            text-color-dark
+                            text-color-hover-primary
+                            text-decoration-none
+                          "
+                          >Fadhili Gas Plant</a
+                        >
+                      </h2>
                     </div>
                   </div>
-                </div>
-                <div
-                  class="col-12 appear-animation"
-                  data-appear-animation="fadeInUpShorterPlus"
-                  data-appear-animation-delay="1600"
-                >
                   <div
-                    class="
-                      d-flex
-                      flex-column flex-sm-row
-                      align-items-center align-items-sm-start
-                    "
+                    class="col-sm-6 col-md-4 isotope-item general-construction"
                   >
-                    <img
-                      class="flex-0-0-auto"
-                      width="85"
-                      height="85"
-                      src="img/demos/construction/icons/oil.svg"
-                      alt=""
-                      data-icon
-                      data-plugin-options="{'animated': true, 'delay': 1900, 'accY': 400, 'strokeBased': true, 'extraClass': 'svg-stroke-color-dark px-0 px-sm-5 pb-4 pb-sm-0 pt-3'}"
-                    />
-                    <div class="text-center text-sm-start">
-                      <h3
+                    <div
+                      class="portfolio-item appear-animation"
+                      data-appear-animation="fadeInUpShorterPlus"
+                      data-appear-animation-delay="1400"
+                    >
+                      <div
                         class="
-                          text-color-dark
-                          font-weight-bold
-                          text-transform-none text-5-5
+                          thumb-info
+                          thumb-info-no-borders
+                          thumb-info-no-borders-rounded
+                          thumb-info-centered-icons
                           mb-3-5
                         "
                       >
-                        Oil
-                      </h3>
-                      <p class="font-weight-light text-3-5 mb-4-5">
-                        We have a major presence in the downstream and upstream
-                        sectors of the oil and gas industry. In the downstream,
-                        We manufacture and distribute products derived from
-                        crude oil and other feedstocks. In the Upstream, Our
-                        understanding of the global hydrocarbon endowment,
-                        coupled with our unique geoscience capabilities, allows
-                        us to identify and prioritize the development of the
-                        highest quality resources.
-                      </p>
-                      <a
-                        href="demo-construction-services-detail.html"
+                        <div class="thumb-info-wrapper">
+                          <img
+                            src="img/demos/construction/generic/manifa11pro.png"
+                            class="img-fluid"
+                            alt="Pre Construction Image Sample"
+                          />
+                          <div class="thumb-info-action">
+                            <a href="projects-detail.html">
+                              <div
+                                class="
+                                  thumb-info-action-icon
+                                  thumb-info-action-icon-light
+                                "
+                              >
+                                <i class="fas fa-plus text-dark"></i>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <span
                         class="
-                          custom-view-more
-                          d-inline-flex
+                          d-block
+                          text-color-grey
+                          positive-ls-3
                           font-weight-medium
-                          text-color-primary text-decoration-none
+                          text-2
                         "
+                        >Manifa</span
                       >
-                        View More
-                        <img
-                          width="27"
-                          height="27"
-                          src="img/demos/construction/icons/arrow-right.svg"
-                          alt=""
-                          data-icon
-                          data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary ms-2'}"
-                        />
-                      </a>
+                      <h2 class="font-weight-bold text-5-5 line-height-3">
+                        <a
+                          href="projects-detail.html"
+                          class="
+                            text-color-dark
+                            text-color-hover-primary
+                            text-decoration-none
+                          "
+                          >Giant-sized engineering</a
+                        >
+                      </h2>
                     </div>
                   </div>
-                </div>
-                <div
-                  class="col-12 appear-animation"
-                  data-appear-animation="fadeInUpShorterPlus"
-                  data-appear-animation-delay="1800"
-                >
-                  <div
-                    class="
-                      d-flex
-                      flex-column flex-sm-row
-                      align-items-center align-items-sm-start
-                    "
-                  >
-                    <img
-                      class="flex-0-0-auto"
-                      width="85"
-                      height="85"
-                      src="img/demos/construction/icons/naturalgas.svg"
-                      alt=""
-                      data-icon
-                      data-plugin-options="{'animated': true, 'delay': 2100, 'accY': 400, 'strokeBased': true, 'extraClass': 'svg-stroke-color-dark px-0 px-sm-5 pb-4 pb-sm-0 pt-3'}"
-                    />
-                    <div class="text-center text-sm-start">
-                      <h3
+                  <div class="col-sm-6 col-md-4 isotope-item plumbling">
+                    <div
+                      class="portfolio-item appear-animation"
+                      data-appear-animation="fadeInUpShorterPlus"
+                      data-appear-animation-delay="1600"
+                    >
+                      <div
                         class="
-                          text-color-dark
-                          font-weight-bold
-                          text-transform-none text-5-5
+                          thumb-info
+                          thumb-info-no-borders
+                          thumb-info-no-borders-rounded
+                          thumb-info-centered-icons
                           mb-3-5
                         "
                       >
-                        Natural Gas
-                      </h3>
-                      <p class="font-weight-light text-3-5 mb-4-5">
-                        Gas & low carbon energy (G&LCE) integrates our existing
-                        natural gas capabilities with significant growth in low
-                        and zero carbon businesses and markets. We are
-                        continuously Integrating our existing natural gas
-                        capabilities with significant growth in low and zero
-                        carbon businesses and markets, including wind, solar and
-                        hydrogen
-                      </p>
-                      <a
-                        href="demo-construction-services-detail.html"
+                        <div class="thumb-info-wrapper">
+                          <img
+                            src="img/demos/construction/generic/sadara22pro.png"
+                            class="img-fluid"
+                            alt="Pre Construction Image Sample"
+                          />
+                          <div class="thumb-info-action">
+                            <a href="projects-detail.html">
+                              <div
+                                class="
+                                  thumb-info-action-icon
+                                  thumb-info-action-icon-light
+                                "
+                              >
+                                <i class="fas fa-plus text-dark"></i>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <span
                         class="
-                          custom-view-more
-                          d-inline-flex
+                          d-block
+                          text-color-grey
+                          positive-ls-3
                           font-weight-medium
-                          text-color-primary text-decoration-none
+                          text-2
                         "
+                        >Sadara</span
                       >
-                        View More
-                        <img
-                          width="27"
-                          height="27"
-                          src="img/demos/construction/icons/arrow-right.svg"
-                          alt=""
-                          data-icon
-                          data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary ms-2'}"
-                        />
-                      </a>
+                      <h2 class="font-weight-bold text-5-5 line-height-3">
+                        <a
+                          href="projects-detail.html"
+                          class="
+                            text-color-dark
+                            text-color-hover-primary
+                            text-decoration-none
+                          "
+                          >A Powerful Partnership</a
+                        >
+                      </h2>
                     </div>
                   </div>
-                </div>
-                <div
-                  class="col-12 appear-animation"
-                  data-appear-animation="fadeInUpShorterPlus"
-                  data-appear-animation-delay="300"
-                >
-                  <div
-                    class="
-                      d-flex
-                      flex-column flex-sm-row
-                      align-items-center align-items-sm-start
-                    "
-                  >
-                    <img
-                      class="flex-0-0-auto"
-                      width="85"
-                      height="85"
-                      src="img/demos/construction/icons/energytech.svg"
-                      alt=""
-                      data-icon
-                      data-plugin-options="{'animated': true, 'delay': 600, 'accY': 400, 'strokeBased': true, 'extraClass': 'svg-stroke-color-dark px-0 px-sm-5 pb-4 pb-sm-0 pt-3'}"
-                    />
-                    <div class="text-center text-sm-start">
-                      <h3
+                  <div class="col-sm-6 col-md-4 isotope-item painting">
+                    <div
+                      class="portfolio-item appear-animation"
+                      data-appear-animation="fadeInUpShorterPlus"
+                      data-appear-animation-delay="300"
+                    >
+                      <div
                         class="
-                          text-color-dark
-                          font-weight-bold
-                          text-transform-none text-5-5
+                          thumb-info
+                          thumb-info-no-borders
+                          thumb-info-no-borders-rounded
+                          thumb-info-centered-icons
                           mb-3-5
                         "
                       >
-                        Energy Technologies
-                      </h3>
-                      <p class="font-weight-light text-3-5 mb-4-5">
-                        Our unique drilling and production technology challenge
-                        consists of deploying technologies and methods to safely
-                        develop a wide range of resources both onshore and
-                        offshore in diverse locations around the world. We are
-                        also constantly developing and revamping our Hydraulic
-                        fracturing technology which enables companies like
-                        Pacific Energy LLC to access unconventional oil and
-                        natural gas resources located in shale and tight-rock
-                        formations
-                      </p>
-                      <a
-                        href="demo-construction-services-detail.html"
+                        <div class="thumb-info-wrapper">
+                          <img
+                            src="img/demos/construction/generic/shaybah22pro.png"
+                            class="img-fluid"
+                            alt="Pre Construction Image Sample"
+                          />
+                          <div class="thumb-info-action">
+                            <a href="projects-detail.html">
+                              <div
+                                class="
+                                  thumb-info-action-icon
+                                  thumb-info-action-icon-light
+                                "
+                              >
+                                <i class="fas fa-plus text-dark"></i>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <span
                         class="
-                          custom-view-more
-                          d-inline-flex
+                          d-block
+                          text-color-grey
+                          positive-ls-3
                           font-weight-medium
-                          text-color-primary text-decoration-none
+                          text-2
+                        "
+                        >Shaybah</span
+                      >
+                      <h2 class="font-weight-bold text-5-5 line-height-3">
+                        <a
+                          href="projects-detail.html"
+                          class="
+                            text-color-dark
+                            text-color-hover-primary
+                            text-decoration-none
+                          "
+                          >Extreme engineering in extreme conditions</a
+                        >
+                      </h2>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4 isotope-item pre-construction">
+                    <div
+                      class="portfolio-item appear-animation"
+                      data-appear-animation="fadeInUpShorterPlus"
+                      data-appear-animation-delay="500"
+                    >
+                      <div
+                        class="
+                          thumb-info
+                          thumb-info-no-borders
+                          thumb-info-no-borders-rounded
+                          thumb-info-centered-icons
+                          mb-3-5
                         "
                       >
-                        View More
-                        <img
-                          width="27"
-                          height="27"
-                          src="img/demos/construction/icons/arrow-right.svg"
-                          alt=""
-                          data-icon
-                          data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary ms-2'}"
-                        />
-                      </a>
+                        <div class="thumb-info-wrapper">
+                          <img
+                            src="img/demos/construction/generic/wasitsquarepicpro.png"
+                            class="img-fluid"
+                            alt="Master Gas System"
+                          />
+                          <div class="thumb-info-action">
+                            <a href="projects-detail.html">
+                              <div
+                                class="
+                                  thumb-info-action-icon
+                                  thumb-info-action-icon-light
+                                "
+                              >
+                                <i class="fas fa-plus text-dark"></i>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <span
+                        class="
+                          d-block
+                          text-color-grey
+                          positive-ls-3
+                          font-weight-medium
+                          text-2
+                        "
+                        >Wasit</span
+                      >
+                      <h2 class="font-weight-bold text-5-5 line-height-3">
+                        <a
+                          href="projects-detail.html"
+                          class="
+                            text-color-dark
+                            text-color-hover-primary
+                            text-decoration-none
+                          "
+                          >The Master Gas System</a
+                        >
+                      </h2>
+                    </div>
+                  </div>
+                  <div
+                    class="col-sm-6 col-md-4 isotope-item general-construction"
+                  >
+                    <div
+                      class="portfolio-item appear-animation"
+                      data-appear-animation="fadeInUpShorterPlus"
+                      data-appear-animation-delay="700"
+                    >
+                      <div
+                        class="
+                          thumb-info
+                          thumb-info-no-borders
+                          thumb-info-no-borders-rounded
+                          thumb-info-centered-icons
+                          mb-3-5
+                        "
+                      >
+                        <div class="thumb-info-wrapper">
+                          <img
+                            src="img/demos/construction/generic/cityproject.png"
+                            class="img-fluid"
+                            alt="Bengaluru City Project"
+                          />
+                          <div class="thumb-info-action">
+                            <a href="projects-detail.html">
+                              <div
+                                class="
+                                  thumb-info-action-icon
+                                  thumb-info-action-icon-light
+                                "
+                              >
+                                <i class="fas fa-plus text-dark"></i>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <span
+                        class="
+                          d-block
+                          text-color-grey
+                          positive-ls-3
+                          font-weight-medium
+                          text-2
+                        "
+                        >Bengaluru</span
+                      >
+                      <h2 class="font-weight-bold text-5-5 line-height-3">
+                        <a
+                          href="projects-detail.html"
+                          class="
+                            text-color-dark
+                            text-color-hover-primary
+                            text-decoration-none
+                          "
+                          >Corporate Responsibility Framework</a
+                        >
+                      </h2>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <!-- Sidebar -->
-            <div
-              class="col-lg-4 order-lg-1 position-relative appear-animation"
-              data-appear-animation="fadeInUpShorterPlus"
-              data-appear-animation-delay="1000"
-            >
-              <aside
-                class="sidebar"
-                data-plugin-sticky
-                data-plugin-options="{'minWidth': 991, 'containerSelector': '.container', 'padding': {'top': 110}}"
-              >
-                <ul
-                  class="
-                    nav
-                    list
-                    flex-column
-                    text-3-5
-                    font-weight-medium
-                    mb-5-5
-                  "
-                >
-                  <li
-                    class="
-                      nav-item
-                      border
-                      border-color-grey-1
-                      border-top-0
-                      border-end-0
-                      border-start-0
-                      mb-0
-                    "
-                  >
-                    <a
-                      class="
-                        d-inline-flex
-                        align-items-center
-                        nav-link
-                        text-color-primary
-                        py-3
-                        ps-0
-                      "
-                      data-hash
-                      data-hash-offset="0"
-                      data-hash-offset-lg="110"
-                      href="demo-construction-services-detail.html"
-                    >
-                      <i
-                        class="
-                          fas
-                          fa-chevron-right
-                          text-1
-                          position-relative
-                          top-1
-                          pe-3-5
-                        "
-                      ></i>
-                      Overview
-                    </a>
-                  </li>
-                  <li
-                    class="
-                      nav-item
-                      border
-                      border-color-grey-1
-                      border-top-0
-                      border-end-0
-                      border-start-0
-                      mb-0
-                    "
-                  >
-                    <a
-                      class="
-                        nav-link
-                        text-color-dark text-color-hover-primary
-                        py-3
-                        ps-0
-                      "
-                      data-hash
-                      data-hash-offset="0"
-                      data-hash-offset-lg="110"
-                      href="demo-construction-services-detail.html"
-                    >
-                      <i
-                        class="
-                          fas
-                          fa-chevron-right
-                          text-1
-                          position-relative
-                          top-1
-                          pe-3-5
-                        "
-                      ></i>
-                      Business Divisions
-                    </a>
-                  </li>
-                  <li
-                    class="
-                      nav-item
-                      border
-                      border-color-grey-1
-                      border-top-0
-                      border-end-0
-                      border-start-0
-                      mb-0
-                    "
-                  >
-                    <a
-                      class="
-                        nav-link
-                        text-color-dark text-color-hover-primary
-                        py-3
-                        ps-0
-                      "
-                      data-hash
-                      data-hash-offset="0"
-                      data-hash-offset-lg="110"
-                      href="demo-construction-services-detail.html"
-                    >
-                      <i
-                        class="
-                          fas
-                          fa-chevron-right
-                          text-1
-                          position-relative
-                          top-1
-                          pe-3-5
-                        "
-                      ></i>
-                      Oil
-                    </a>
-                  </li>
-                  <li
-                    class="
-                      nav-item
-                      border
-                      border-color-grey-1
-                      border-top-0
-                      border-end-0
-                      border-start-0
-                      mb-0
-                    "
-                  >
-                    <a
-                      class="
-                        nav-link
-                        text-color-dark text-color-hover-primary
-                        py-3
-                        ps-0
-                      "
-                      data-hash
-                      data-hash-offset="0"
-                      data-hash-offset-lg="110"
-                      href="demo-construction-services-detail.html"
-                    >
-                      <i
-                        class="
-                          fas
-                          fa-chevron-right
-                          text-1
-                          position-relative
-                          top-1
-                          pe-3-5
-                        "
-                      ></i>
-                      Natural Gas
-                    </a>
-                  </li>
-                  <li class="nav-item mb-0">
-                    <a
-                      class="
-                        nav-link
-                        text-color-dark text-color-hover-primary
-                        py-3
-                        ps-0
-                      "
-                      data-hash
-                      data-hash-offset="0"
-                      data-hash-offset-lg="110"
-                      href="demo-construction-services-detail.html"
-                    >
-                      <i
-                        class="
-                          fas
-                          fa-chevron-right
-                          text-1
-                          position-relative
-                          top-1
-                          pe-3-5
-                        "
-                      ></i>
-                      Energy Technologies
-                    </a>
-                  </li>
-                </ul>
-
-                <h3
-                  class="
-                    text-color-dark
-                    font-weight-bold
-                    text-transform-none text-5-5
-                    line-height-1
-                    mb-3-5
-                  "
-                >
-                  Contact Us
-                </h3>
-                <p class="text-2 line-height-9">
-                  Contact us by sending a message or give us a call to discover
-                  how we can help.
-                </p>
-
-                <form
-                  class="contact-form form-style-3"
-                  action="php/contact-form.php"
-                  method="POST"
-                >
-                  <div
-                    class="contact-form-success alert alert-success d-none mt-4"
-                  >
-                    <strong>Success!</strong> Your message has been sent to us.
-                  </div>
-
-                  <div
-                    class="contact-form-error alert alert-danger d-none mt-4"
-                  >
-                    <strong>Error!</strong> There was an error sending your
-                    message.
-                    <span class="mail-error-message text-1 d-block"></span>
-                  </div>
-
-                  <div class="row">
-                    <div class="form-group col mb-3-5">
-                      <input
-                        type="text"
-                        value=""
-                        data-msg-required="Please enter your name."
-                        maxlength="100"
-                        class="form-control text-2 h-auto py-2-5"
-                        name="name"
-                        placeholder="Your Name"
-                        required
-                      />
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="form-group col mb-3-5">
-                      <input
-                        type="email"
-                        value=""
-                        data-msg-required="Please enter your email address."
-                        data-msg-email="Please enter a valid email address."
-                        maxlength="100"
-                        class="form-control text-2 h-auto py-2-5"
-                        name="email"
-                        placeholder="Your E-mail Address"
-                        required
-                      />
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="form-group col mb-3-5">
-                      <input
-                        type="text"
-                        value=""
-                        data-msg-required="Please enter the subject."
-                        maxlength="100"
-                        class="form-control text-2 h-auto py-2-5"
-                        name="subject"
-                        placeholder="Subject"
-                        required
-                      />
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="form-group col mb-3-5">
-                      <textarea
-                        maxlength="5000"
-                        data-msg-required="Please enter your message."
-                        rows="4"
-                        class="form-control text-2 h-auto py-2-5"
-                        name="message"
-                        placeholder="Message"
-                        required
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="form-group col">
-                      <button
-                        type="submit"
-                        class="
-                          custom-view-more
-                          d-inline-flex
-                          align-items-center
-                          btn btn-primary
-                          font-weight-semibold
-                          rounded-0
-                          text-2
-                          btn-px-4 btn-py-1
-                        "
-                        data-loading-text="Loading..."
-                      >
-                        Submit
-                        <img
-                          width="27"
-                          height="27"
-                          src="img/demos/construction/icons/arrow-right.svg"
-                          alt=""
-                          data-icon
-                          data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light ms-2'}"
-                        />
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </aside>
             </div>
           </div>
         </div>
@@ -1015,10 +881,10 @@
             <div class="col-lg-2 align-self-center">
               <a href="index.html">
                 <img
-                  alt="Porto"
+                  alt="Pacific Energy"
                   class="img-fluid logo"
-                  width="123"
-                  height="48"
+                  width="180"
+                  height="120"
                   src="img/demos/construction/PACIFIC__1_-removebg-preview.png"
                 />
               </a>
@@ -1029,13 +895,16 @@
               </h4>
               <ul class="list list-unstyled columns-lg-2">
                 <li>
-                  <a href="index.html" class="text-color-hover-primary">
+                  <a
+                    href="index.html"
+                    class="text-color-hover-primary"
+                  >
                     Home
                   </a>
                 </li>
                 <li>
                   <a
-                    href="demo-construction-company.html"
+                    href="company.html"
                     class="text-color-hover-primary"
                   >
                     Company
@@ -1043,7 +912,7 @@
                 </li>
                 <li>
                   <a
-                    href="demo-construction-services.html"
+                    href="services.html"
                     class="text-color-hover-primary"
                   >
                     Services
@@ -1051,7 +920,7 @@
                 </li>
                 <li>
                   <a
-                    href="demo-construction-projects.html"
+                    href="projects.html"
                     class="text-color-hover-primary"
                   >
                     Projects
@@ -1059,7 +928,7 @@
                 </li>
                 <li>
                   <a
-                    href="demo-construction-blog.html"
+                    href="blog.html"
                     class="text-color-hover-primary"
                   >
                     Blog
@@ -1067,7 +936,7 @@
                 </li>
                 <li>
                   <a
-                    href="demo-construction-contact.html"
+                    href="contact.html"
                     class="text-color-hover-primary"
                   >
                     Contact
